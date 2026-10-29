@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 // Thay Token Bot và Chat ID Telegram của bạn vào đây
 const TELEGRAM_BOT_TOKEN = '8614162784:AAGCjoPhDogqD3hKmnK5pTgnInGNrZYg3Rg';
-const TELEGRAM_CHAT_ID = '7444111210';
+const TELEGRAM_CHAT_ID = '-5121626811';
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
